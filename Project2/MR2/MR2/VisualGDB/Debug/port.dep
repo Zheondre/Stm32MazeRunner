@@ -1,0 +1,53 @@
+VisualGDB/Debug/port.o: \
+ C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/port.c \
+ C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h \
+ C:/src/Stm32MazeRunner/Project2/CubeMx/Inc/FreeRTOSConfig.h \
+ C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/portmacro.h \
+ C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+
+C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h:
+
+C:/src/Stm32MazeRunner/Project2/CubeMx/Inc/FreeRTOSConfig.h:
+
+C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
+
+C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
+
+C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
+
+C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/portmacro.h:
+
+C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
+
+C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
+
+C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/include/list.h:

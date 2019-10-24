@@ -1,0 +1,703 @@
+﻿Project file contains ToolsVersion="11.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+  arm_abs_f32.c
+  arm_abs_q15.c
+  arm_abs_q31.c
+  arm_abs_q7.c
+  arm_add_f32.c
+  arm_add_q15.c
+  arm_add_q31.c
+  arm_add_q7.c
+  arm_dot_prod_f32.c
+  arm_dot_prod_q15.c
+  arm_dot_prod_q31.c
+  arm_dot_prod_q7.c
+  arm_mult_f32.c
+  arm_mult_q15.c
+  arm_mult_q31.c
+  arm_mult_q7.c
+  arm_negate_f32.c
+  arm_negate_q15.c
+  arm_negate_q31.c
+  arm_negate_q7.c
+  arm_offset_f32.c
+  arm_offset_q15.c
+  arm_offset_q31.c
+  arm_offset_q7.c
+  arm_scale_f32.c
+  arm_scale_q15.c
+  arm_scale_q31.c
+  arm_scale_q7.c
+  arm_shift_q15.c
+  arm_shift_q31.c
+  arm_shift_q7.c
+  arm_sub_f32.c
+  arm_sub_q15.c
+  arm_sub_q31.c
+  arm_sub_q7.c
+  arm_common_tables.c
+  arm_const_structs.c
+  arm_cmplx_conj_f32.c
+  arm_cmplx_conj_q15.c
+  arm_cmplx_conj_q31.c
+  arm_cmplx_dot_prod_f32.c
+  arm_cmplx_dot_prod_q15.c
+  arm_cmplx_dot_prod_q31.c
+  arm_cmplx_mag_f32.c
+  arm_cmplx_mag_q15.c
+  arm_cmplx_mag_q31.c
+  arm_cmplx_mag_squared_f32.c
+  arm_cmplx_mag_squared_q15.c
+  arm_cmplx_mag_squared_q31.c
+  arm_cmplx_mult_cmplx_f32.c
+  arm_cmplx_mult_cmplx_q15.c
+  arm_cmplx_mult_cmplx_q31.c
+  arm_cmplx_mult_real_f32.c
+  arm_cmplx_mult_real_q15.c
+  arm_cmplx_mult_real_q31.c
+  arm_pid_init_f32.c
+  arm_pid_init_q15.c
+  arm_pid_init_q31.c
+  arm_pid_reset_f32.c
+  arm_pid_reset_q15.c
+  arm_pid_reset_q31.c
+  arm_sin_cos_f32.c
+  arm_sin_cos_q31.c
+  arm_cos_f32.c
+  arm_cos_q15.c
+  arm_cos_q31.c
+  arm_sin_f32.c
+  arm_sin_q15.c
+  arm_sin_q31.c
+  arm_sqrt_q15.c
+  arm_sqrt_q31.c
+  arm_biquad_cascade_df1_32x64_init_q31.c
+  arm_biquad_cascade_df1_32x64_q31.c
+  arm_biquad_cascade_df1_f32.c
+  arm_biquad_cascade_df1_fast_q15.c
+  arm_biquad_cascade_df1_fast_q31.c
+  arm_biquad_cascade_df1_init_f32.c
+  arm_biquad_cascade_df1_init_q15.c
+  arm_biquad_cascade_df1_init_q31.c
+  arm_biquad_cascade_df1_q15.c
+  arm_biquad_cascade_df1_q31.c
+  arm_biquad_cascade_df2T_f32.c
+  arm_biquad_cascade_df2T_f64.c
+  arm_biquad_cascade_df2T_init_f32.c
+  arm_biquad_cascade_df2T_init_f64.c
+  arm_biquad_cascade_stereo_df2T_f32.c
+  arm_biquad_cascade_stereo_df2T_init_f32.c
+  arm_conv_f32.c
+  arm_conv_fast_opt_q15.c
+  arm_conv_fast_q15.c
+  arm_conv_fast_q31.c
+  arm_conv_opt_q15.c
+  arm_conv_opt_q7.c
+  arm_conv_partial_f32.c
+  arm_conv_partial_fast_opt_q15.c
+  arm_conv_partial_fast_q15.c
+  arm_conv_partial_fast_q31.c
+  arm_conv_partial_opt_q15.c
+  arm_conv_partial_opt_q7.c
+  arm_conv_partial_q15.c
+  arm_conv_partial_q31.c
+  arm_conv_partial_q7.c
+  arm_conv_q15.c
+  arm_conv_q31.c
+  arm_conv_q7.c
+  arm_correlate_f32.c
+  arm_correlate_fast_opt_q15.c
+  arm_correlate_fast_q15.c
+  arm_correlate_fast_q31.c
+  arm_correlate_opt_q15.c
+  arm_correlate_opt_q7.c
+  arm_correlate_q15.c
+  arm_correlate_q31.c
+  arm_correlate_q7.c
+  arm_fir_decimate_f32.c
+  arm_fir_decimate_fast_q15.c
+  arm_fir_decimate_fast_q31.c
+  arm_fir_decimate_init_f32.c
+  arm_fir_decimate_init_q15.c
+  arm_fir_decimate_init_q31.c
+  arm_fir_decimate_q15.c
+  arm_fir_decimate_q31.c
+  arm_fir_f32.c
+  arm_fir_fast_q15.c
+  arm_fir_fast_q31.c
+  arm_fir_init_f32.c
+  arm_fir_init_q15.c
+  arm_fir_init_q31.c
+  arm_fir_init_q7.c
+  arm_fir_interpolate_f32.c
+  arm_fir_interpolate_init_f32.c
+  arm_fir_interpolate_init_q15.c
+  arm_fir_interpolate_init_q31.c
+  arm_fir_interpolate_q15.c
+  arm_fir_interpolate_q31.c
+  arm_fir_lattice_f32.c
+  arm_fir_lattice_init_f32.c
+  arm_fir_lattice_init_q15.c
+  arm_fir_lattice_init_q31.c
+  arm_fir_lattice_q15.c
+  arm_fir_lattice_q31.c
+  arm_fir_q15.c
+  arm_fir_q31.c
+  arm_fir_q7.c
+  arm_fir_sparse_f32.c
+  arm_fir_sparse_init_f32.c
+  arm_fir_sparse_init_q15.c
+  arm_fir_sparse_init_q31.c
+  arm_fir_sparse_init_q7.c
+  arm_fir_sparse_q15.c
+  arm_fir_sparse_q31.c
+  arm_fir_sparse_q7.c
+  arm_iir_lattice_f32.c
+  arm_iir_lattice_init_f32.c
+  arm_iir_lattice_init_q15.c
+  arm_iir_lattice_init_q31.c
+  arm_iir_lattice_q15.c
+  arm_iir_lattice_q31.c
+  arm_lms_f32.c
+  arm_lms_init_f32.c
+  arm_lms_init_q15.c
+  arm_lms_init_q31.c
+  arm_lms_norm_f32.c
+  arm_lms_norm_init_f32.c
+  arm_lms_norm_init_q15.c
+  arm_lms_norm_init_q31.c
+  arm_lms_norm_q15.c
+  arm_lms_norm_q31.c
+  arm_lms_q15.c
+  arm_lms_q31.c
+  arm_mat_add_f32.c
+  arm_mat_add_q15.c
+  arm_mat_add_q31.c
+  arm_mat_cmplx_mult_f32.c
+  arm_mat_cmplx_mult_q15.c
+  arm_mat_cmplx_mult_q31.c
+  arm_mat_init_f32.c
+  arm_mat_init_q15.c
+  arm_mat_init_q31.c
+  arm_mat_inverse_f32.c
+  arm_mat_inverse_f64.c
+  arm_mat_mult_f32.c
+  arm_mat_mult_fast_q15.c
+  arm_mat_mult_fast_q31.c
+  arm_mat_mult_q15.c
+  arm_mat_mult_q31.c
+  arm_mat_scale_f32.c
+  arm_mat_scale_q15.c
+  arm_mat_scale_q31.c
+  arm_mat_sub_f32.c
+  arm_mat_sub_q15.c
+  arm_mat_sub_q31.c
+  arm_mat_trans_f32.c
+  arm_mat_trans_q15.c
+  arm_mat_trans_q31.c
+  arm_max_f32.c
+  arm_max_q15.c
+  arm_max_q31.c
+  arm_max_q7.c
+  arm_mean_f32.c
+  arm_mean_q15.c
+  arm_mean_q31.c
+  arm_mean_q7.c
+  arm_min_f32.c
+  arm_min_q15.c
+  arm_min_q31.c
+  arm_min_q7.c
+  arm_power_f32.c
+  arm_power_q15.c
+  arm_power_q31.c
+  arm_power_q7.c
+  arm_rms_f32.c
+  arm_rms_q15.c
+  arm_rms_q31.c
+  arm_std_f32.c
+  arm_std_q15.c
+  arm_std_q31.c
+  arm_var_f32.c
+  arm_var_q15.c
+  arm_var_q31.c
+  arm_copy_f32.c
+  arm_copy_q15.c
+  arm_copy_q31.c
+  arm_copy_q7.c
+  arm_fill_f32.c
+  arm_fill_q15.c
+  arm_fill_q31.c
+  arm_fill_q7.c
+  arm_float_to_q15.c
+  arm_float_to_q31.c
+  arm_float_to_q7.c
+  arm_q15_to_float.c
+  arm_q15_to_q31.c
+  arm_q15_to_q7.c
+  arm_q31_to_float.c
+  arm_q31_to_q15.c
+  arm_q31_to_q7.c
+  arm_q7_to_float.c
+  arm_q7_to_q15.c
+  arm_q7_to_q31.c
+  arm_bitreversal.c
+  arm_cfft_f32.c
+  arm_cfft_q15.c
+  arm_cfft_q31.c
+  arm_cfft_radix2_f32.c
+  arm_cfft_radix2_init_f32.c
+  arm_cfft_radix2_init_q15.c
+  arm_cfft_radix2_init_q31.c
+  arm_cfft_radix2_q15.c
+  arm_cfft_radix2_q31.c
+  arm_cfft_radix4_f32.c
+  arm_cfft_radix4_init_f32.c
+  arm_cfft_radix4_init_q15.c
+  arm_cfft_radix4_init_q31.c
+  arm_cfft_radix4_q15.c
+  arm_cfft_radix4_q31.c
+  arm_cfft_radix8_f32.c
+  arm_dct4_f32.c
+  arm_dct4_init_f32.c
+  arm_dct4_init_q15.c
+  arm_dct4_init_q31.c
+  arm_dct4_q15.c
+  arm_dct4_q31.c
+  arm_rfft_f32.c
+  arm_rfft_fast_f32.c
+  arm_rfft_fast_init_f32.c
+  arm_rfft_init_f32.c
+  arm_rfft_init_q15.c
+  arm_rfft_init_q31.c
+  arm_rfft_q15.c
+  arm_rfft_q31.c
+  stm32l4xx_hal.c
+  stm32l4xx_hal_adc.c
+  stm32l4xx_hal_adc_ex.c
+  stm32l4xx_hal_can.c
+  stm32l4xx_hal_comp.c
+  stm32l4xx_hal_cortex.c
+  stm32l4xx_hal_crc.c
+  stm32l4xx_hal_crc_ex.c
+  stm32l4xx_hal_cryp.c
+  stm32l4xx_hal_cryp_ex.c
+  stm32l4xx_hal_dac.c
+  stm32l4xx_hal_dac_ex.c
+  stm32l4xx_hal_dcmi.c
+  stm32l4xx_hal_dfsdm.c
+  stm32l4xx_hal_dfsdm_ex.c
+  stm32l4xx_hal_dma.c
+  stm32l4xx_hal_dma2d.c
+  stm32l4xx_hal_dma_ex.c
+  stm32l4xx_hal_dsi.c
+  stm32l4xx_hal_exti.c
+  stm32l4xx_hal_firewall.c
+  stm32l4xx_hal_flash.c
+  stm32l4xx_hal_flash_ex.c
+  stm32l4xx_hal_flash_ramfunc.c
+  stm32l4xx_hal_gfxmmu.c
+  stm32l4xx_hal_gpio.c
+  stm32l4xx_hal_hash.c
+  stm32l4xx_hal_hash_ex.c
+  stm32l4xx_hal_hcd.c
+  stm32l4xx_hal_i2c.c
+  stm32l4xx_hal_i2c_ex.c
+  stm32l4xx_hal_irda.c
+  stm32l4xx_hal_iwdg.c
+  stm32l4xx_hal_lcd.c
+  stm32l4xx_hal_lptim.c
+  stm32l4xx_hal_ltdc.c
+  stm32l4xx_hal_ltdc_ex.c
+  stm32l4xx_hal_nand.c
+  stm32l4xx_hal_nor.c
+  stm32l4xx_hal_opamp.c
+  stm32l4xx_hal_opamp_ex.c
+  stm32l4xx_hal_ospi.c
+  stm32l4xx_hal_pcd.c
+  stm32l4xx_hal_pcd_ex.c
+  stm32l4xx_hal_pwr.c
+  stm32l4xx_hal_pwr_ex.c
+  stm32l4xx_hal_qspi.c
+  stm32l4xx_hal_rcc.c
+  stm32l4xx_hal_rcc_ex.c
+  stm32l4xx_hal_rng.c
+  stm32l4xx_hal_rtc.c
+  stm32l4xx_hal_rtc_ex.c
+  stm32l4xx_hal_sai.c
+  stm32l4xx_hal_sai_ex.c
+  stm32l4xx_hal_sd.c
+  stm32l4xx_hal_sd_ex.c
+  stm32l4xx_hal_smartcard.c
+  stm32l4xx_hal_smartcard_ex.c
+  stm32l4xx_hal_smbus.c
+  stm32l4xx_hal_spi.c
+  stm32l4xx_hal_spi_ex.c
+  stm32l4xx_hal_sram.c
+  stm32l4xx_hal_swpmi.c
+  stm32l4xx_hal_tim.c
+  stm32l4xx_hal_timebase_tim_template.c
+  stm32l4xx_hal_tim_ex.c
+  stm32l4xx_hal_tsc.c
+  stm32l4xx_hal_uart.c
+  stm32l4xx_hal_uart_ex.c
+  stm32l4xx_hal_usart.c
+  stm32l4xx_hal_usart_ex.c
+  stm32l4xx_hal_wwdg.c
+  stm32l4xx_ll_adc.c
+  stm32l4xx_ll_comp.c
+  stm32l4xx_ll_crc.c
+  stm32l4xx_ll_crs.c
+  stm32l4xx_ll_dac.c
+  stm32l4xx_ll_dma.c
+  stm32l4xx_ll_dma2d.c
+  stm32l4xx_ll_exti.c
+  stm32l4xx_ll_fmc.c
+  stm32l4xx_ll_gpio.c
+  stm32l4xx_ll_i2c.c
+  stm32l4xx_ll_lptim.c
+  stm32l4xx_ll_lpuart.c
+  stm32l4xx_ll_opamp.c
+  stm32l4xx_ll_pwr.c
+  stm32l4xx_ll_rcc.c
+  stm32l4xx_ll_rng.c
+  stm32l4xx_ll_rtc.c
+  stm32l4xx_ll_sdmmc.c
+  stm32l4xx_ll_spi.c
+  stm32l4xx_ll_swpmi.c
+  stm32l4xx_ll_tim.c
+  stm32l4xx_ll_usart.c
+  stm32l4xx_ll_usb.c
+  stm32l4xx_ll_utils.c
+  croutine.c
+  event_groups.c
+  list.c
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h(52):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h(62):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c(37):
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c: In function 'xEventGroupSync':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(125,2): warning :  implicit declaration of function '__set_BASEPRI' [-Wimplicit-function-declaration]
+    __set_BASEPRI( configMAX_SYSCALL_INTERRUPT_PRIORITY ); \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c(183,2): note :  in expansion of macro 'configASSERT'
+    configASSERT( ( uxBitsToWaitFor & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+    ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(126,2): warning :  implicit declaration of function '__DSB'; did you mean '__DOTS'? [-Wimplicit-function-declaration]
+    __DSB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c(183,2): note :  in expansion of macro 'configASSERT'
+    configASSERT( ( uxBitsToWaitFor & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+    ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(127,2): warning :  implicit declaration of function '__ISB'; did you mean '__INT8'? [-Wimplicit-function-declaration]
+    __ISB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c(183,2): note :  in expansion of macro 'configASSERT'
+    configASSERT( ( uxBitsToWaitFor & eventEVENT_BITS_CONTROL_BYTES ) == 0 );
+    ^~~~~~~~~~~~
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c: In function 'xEventGroupGetBitsFromISR':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(133,44): warning :  implicit declaration of function '__get_BASEPRI' [-Wimplicit-function-declaration]
+   #define portSET_INTERRUPT_MASK_FROM_ISR()  __get_BASEPRI(); portDISABLE_INTERRUPTS()
+                                              ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c(494,27): note :  in expansion of macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+    uxSavedInterruptStatus = portSET_INTERRUPT_MASK_FROM_ISR();
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  queue.c
+  stream_buffer.c
+  tasks.c
+  timers.c
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h(52):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h(62):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\queue.c(36):
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/queue.c: In function 'xQueueGenericReset':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(125,2): warning :  implicit declaration of function '__set_BASEPRI' [-Wimplicit-function-declaration]
+    __set_BASEPRI( configMAX_SYSCALL_INTERRUPT_PRIORITY ); \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\queue.c(251,2): note :  in expansion of macro 'configASSERT'
+    configASSERT( pxQueue );
+    ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(126,2): warning :  implicit declaration of function '__DSB'; did you mean '__DOTS'? [-Wimplicit-function-declaration]
+    __DSB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\queue.c(251,2): note :  in expansion of macro 'configASSERT'
+    configASSERT( pxQueue );
+    ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(127,2): warning :  implicit declaration of function '__ISB'; did you mean '__INT8'? [-Wimplicit-function-declaration]
+    __ISB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\queue.c(251,2): note :  in expansion of macro 'configASSERT'
+    configASSERT( pxQueue );
+    ^~~~~~~~~~~~
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/queue.c: In function 'xQueueGenericSendFromISR':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(133,44): warning :  implicit declaration of function '__get_BASEPRI' [-Wimplicit-function-declaration]
+   #define portSET_INTERRUPT_MASK_FROM_ISR()  __get_BASEPRI(); portDISABLE_INTERRUPTS()
+                                              ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\queue.c(954,27): note :  in expansion of macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+    uxSavedInterruptStatus = portSET_INTERRUPT_MASK_FROM_ISR();
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h(52):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h(62):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c(38):
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c: In function 'xStreamBufferGenericCreate':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(125,2): warning :  implicit declaration of function '__set_BASEPRI' [-Wimplicit-function-declaration]
+    __set_BASEPRI( configMAX_SYSCALL_INTERRUPT_PRIORITY ); \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c(227,3): note :  in expansion of macro 'configASSERT'
+     configASSERT( xBufferSizeBytes > sbBYTES_TO_STORE_MESSAGE_LENGTH );
+     ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(126,2): warning :  implicit declaration of function '__DSB'; did you mean '__DOTS'? [-Wimplicit-function-declaration]
+    __DSB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c(227,3): note :  in expansion of macro 'configASSERT'
+     configASSERT( xBufferSizeBytes > sbBYTES_TO_STORE_MESSAGE_LENGTH );
+     ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(127,2): warning :  implicit declaration of function '__ISB'; did you mean '__INT8'? [-Wimplicit-function-declaration]
+    __ISB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c(227,3): note :  in expansion of macro 'configASSERT'
+     configASSERT( xBufferSizeBytes > sbBYTES_TO_STORE_MESSAGE_LENGTH );
+     ^~~~~~~~~~~~
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c: In function 'xStreamBufferSendFromISR':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(133,44): warning :  implicit declaration of function '__get_BASEPRI' [-Wimplicit-function-declaration]
+   #define portSET_INTERRUPT_MASK_FROM_ISR()  __get_BASEPRI(); portDISABLE_INTERRUPTS()
+                                              ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c(115,44): note :  in expansion of macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+     uxSavedInterruptStatus = ( UBaseType_t ) portSET_INTERRUPT_MASK_FROM_ISR();  \
+                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c(621,4): note :  in expansion of macro 'sbSEND_COMPLETE_FROM_ISR'
+      sbSEND_COMPLETE_FROM_ISR( pxStreamBuffer, pxHigherPriorityTaskWoken );
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h(52):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h(62):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\tasks.c(38):
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/tasks.c: In function 'prvInitialiseNewTask':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(125,2): warning :  implicit declaration of function '__set_BASEPRI' [-Wimplicit-function-declaration]
+    __set_BASEPRI( configMAX_SYSCALL_INTERRUPT_PRIORITY ); \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\tasks.c(861,3): note :  in expansion of macro 'configASSERT'
+     configASSERT( ( ( ( portPOINTER_SIZE_TYPE ) pxTopOfStack & ( portPOINTER_SIZE_TYPE ) portBYTE_ALIGNMENT_MASK ) == 0UL ) );
+     ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(126,2): warning :  implicit declaration of function '__DSB'; did you mean '__DOTS'? [-Wimplicit-function-declaration]
+    __DSB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\tasks.c(861,3): note :  in expansion of macro 'configASSERT'
+     configASSERT( ( ( ( portPOINTER_SIZE_TYPE ) pxTopOfStack & ( portPOINTER_SIZE_TYPE ) portBYTE_ALIGNMENT_MASK ) == 0UL ) );
+     ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(127,2): warning :  implicit declaration of function '__ISB'; did you mean '__INT8'? [-Wimplicit-function-declaration]
+    __ISB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\tasks.c(861,3): note :  in expansion of macro 'configASSERT'
+     configASSERT( ( ( ( portPOINTER_SIZE_TYPE ) pxTopOfStack & ( portPOINTER_SIZE_TYPE ) portBYTE_ALIGNMENT_MASK ) == 0UL ) );
+     ^~~~~~~~~~~~
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/tasks.c: In function 'uxTaskPriorityGetFromISR':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(133,44): warning :  implicit declaration of function '__get_BASEPRI' [-Wimplicit-function-declaration]
+   #define portSET_INTERRUPT_MASK_FROM_ISR()  __get_BASEPRI(); portDISABLE_INTERRUPTS()
+                                              ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\tasks.c(1443,27): note :  in expansion of macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+     uxSavedInterruptState = portSET_INTERRUPT_MASK_FROM_ISR();
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/tasks.c: In function 'vTaskSwitchContext':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(114,111): warning :  implicit declaration of function '__CLZ' [-Wimplicit-function-declaration]
+    #define portGET_HIGHEST_PRIORITY( uxTopPriority, uxReadyPriorities ) uxTopPriority = ( 31UL - ( ( uint32_t ) __CLZ( ( uxReadyPriorities ) ) ) )
+                                                                                                                 ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\tasks.c(191,3): note :  in expansion of macro 'portGET_HIGHEST_PRIORITY'
+     portGET_HIGHEST_PRIORITY( uxTopPriority, uxTopReadyPriority );        \
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\tasks.c(2890,3): note :  in expansion of macro 'taskSELECT_HIGHEST_PRIORITY_TASK'
+     taskSELECT_HIGHEST_PRIORITY_TASK();
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  cmsis_os.c
+  port.c
+  heap_4.c
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h(52):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h(62):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h(101):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c(100):
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c: In function 'osPoolAlloc':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(133,44): warning :  implicit declaration of function '__get_BASEPRI'; did you mean '__get_MSP'? [-Wimplicit-function-declaration]
+   #define portSET_INTERRUPT_MASK_FROM_ISR()  __get_BASEPRI(); portDISABLE_INTERRUPTS()
+                                              ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c(987,13): note :  in expansion of macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+       dummy = portSET_INTERRUPT_MASK_FROM_ISR();
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(125,2): warning :  implicit declaration of function '__set_BASEPRI'; did you mean '__set_MSP'? [-Wimplicit-function-declaration]
+    __set_BASEPRI( configMAX_SYSCALL_INTERRUPT_PRIORITY ); \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(133,61): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define portSET_INTERRUPT_MASK_FROM_ISR()  __get_BASEPRI(); portDISABLE_INTERRUPTS()
+                                                               ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c(987,13): note :  in expansion of macro 'portSET_INTERRUPT_MASK_FROM_ISR'
+       dummy = portSET_INTERRUPT_MASK_FROM_ISR();
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c(116,23): warning :  type defaults to 'int' in declaration of 'vPortSetupTimerInterrupt' [-Wimplicit-int]
+   __attribute__((weak)) vPortSetupTimerInterrupt(void);
+                         ^~~~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h(52):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h(62):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c(36):
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/port.c: In function 'prvTaskExitError':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(125,2): warning :  implicit declaration of function '__set_BASEPRI' [-Wimplicit-function-declaration]
+    __set_BASEPRI( configMAX_SYSCALL_INTERRUPT_PRIORITY ); \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c(221,2): note :  in expansion of macro 'configASSERT'
+    configASSERT( uxCriticalNesting == ~0UL );
+    ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(126,2): warning :  implicit declaration of function '__DSB' [-Wimplicit-function-declaration]
+    __DSB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c(221,2): note :  in expansion of macro 'configASSERT'
+    configASSERT( uxCriticalNesting == ~0UL );
+    ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(127,2): warning :  implicit declaration of function '__ISB'; did you mean '__INT8'? [-Wimplicit-function-declaration]
+    __ISB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c(221,2): note :  in expansion of macro 'configASSERT'
+    configASSERT( uxCriticalNesting == ~0UL );
+    ^~~~~~~~~~~~
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/port.c: At top level:
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c(556,23): warning :  return type defaults to 'int' [-Wimplicit-int]
+   __attribute__((weak)) vPortSetupTimerInterrupt(void)
+                         ^~~~~~~~~~~~~~~~~~~~~~~~
+  adc.c
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h(52):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h(62):
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c(43):
+  C:/src/Stm32MazeRunner/Project2/CubeMx/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c: In function 'pvPortMalloc':
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(125,2): warning :  implicit declaration of function '__set_BASEPRI' [-Wimplicit-function-declaration]
+    __set_BASEPRI( configMAX_SYSCALL_INTERRUPT_PRIORITY ); \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c(149,6): note :  in expansion of macro 'configASSERT'
+        configASSERT( ( xWantedSize & portBYTE_ALIGNMENT_MASK ) == 0 );
+        ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(126,2): warning :  implicit declaration of function '__DSB'; did you mean '__DOTS'? [-Wimplicit-function-declaration]
+    __DSB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c(149,6): note :  in expansion of macro 'configASSERT'
+        configASSERT( ( xWantedSize & portBYTE_ALIGNMENT_MASK ) == 0 );
+        ^~~~~~~~~~~~
+C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h(127,2): warning :  implicit declaration of function '__ISB'; did you mean '__INT8'? [-Wimplicit-function-declaration]
+    __ISB();            \
+    ^
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\include\task.h(203,34): note :  in expansion of macro 'portDISABLE_INTERRUPTS'
+   #define taskDISABLE_INTERRUPTS() portDISABLE_INTERRUPTS()
+                                    ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Inc\FreeRTOSConfig.h(114,42): note :  in expansion of macro 'taskDISABLE_INTERRUPTS'
+   #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+                                            ^~~~~~~~~~~~~~~~~~~~~~
+  C:\src\Stm32MazeRunner\Project2\CubeMx\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c(149,6): note :  in expansion of macro 'configASSERT'
+        configASSERT( ( xWantedSize & portBYTE_ALIGNMENT_MASK ) == 0 );
+        ^~~~~~~~~~~~
+  freertos.c
+  gpio.c
+  iwdg.c
+  main.c
+  rtc.c
+  stm32l4xx_hal_msp.c
+  stm32l4xx_it.c
+  system_stm32l4xx.c
+  tim.c
+  usart.c
+  Linking ../VisualGDB/Debug/MR2...
+c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/bin/ld.exe : warning : cannot find entry symbol Reset_Handler; defaulting to 08000000
+  ------------------- Memory utilization report -------------------
+  Used FLASH: 168 bytes
+  Used RAM: 28 bytes
